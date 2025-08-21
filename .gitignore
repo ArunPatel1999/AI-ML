@@ -1,0 +1,131 @@
+# Ignore all files by default
+# *.*
+
+# # Allow certain file types
+# !*.java
+# !*.kt
+# !*.xml
+# !*.properties
+# !*.yml
+# !*.yaml
+# !*.html
+# !*.css
+# !*.js
+# !*.jsx
+# !*.ts
+# !*.tsx
+# !*.json
+# !*.dart
+
+# Ignore build and dependency directories
+**/build/
+**/out/
+**/dist/
+**/node_modules/
+**/.gradle/
+**/.idea/
+**/.vscode/
+**/.dart_tool/
+**/.flutter-plugins/
+**/.flutter-plugins-dependencies/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# Ignore IDE and editor-specific files
+*.iml
+*.sublime-workspace
+*.sublime-project
+*.class
+*.war
+*.ear
+
+# Ignore generated files
+*.jar
+*.war
+*.zip
+*.gz
+*.tar
+*.rar
+*.7z
+*.bak
+*.swp
+*.tmp
+
+# Ignore environment and configuration files
+.env
+.env.*
+.idea/
+*.lock
+*.bak
+*.tmp
+
+# Spring Boot specific
+**/target/
+**/bin/
+**/logs/
+**/.mvn/
+**/.idea/
+**mvnw
+**mvnw.cmd
+
+# Flutter specific
+**/build/
+**/.dart_tool/
+**/.flutter-plugins/
+**/.flutter-plugins-dependencies/
+
+# React and Angular specific
+**/node_modules/
+**/coverage/
+**/.next/
+**/.nuxt/
+**/dist/
+
+# Backup files
+*.bak
+*.swp
+*.tmp
+*~ 
+
+# Ignore Android Studio project files
+**/.idea/
+**/.gradle/
+**/build/
+**/app/build/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+**/local.properties
+**/*.iml
+
+# Ignore specific files
+**/*.log
+**/*.apk
+**/*.lock
+**/*.keystore
+
+# Ignore OS-specific files
+**/.DS_Store
+**/.vscode/
+**/.env
+**/.cache/
+**/.settings/
+**/.metadata/
+**/.history/
+
+# Ignore Gradle cache files
+**/.gradle/
+**/.build-cache/
+
+**/gradle/
+**build.gradle
+**gradlew
+**gradlew.bat
